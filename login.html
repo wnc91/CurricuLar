@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Cadatro do Analista</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<link rel="stylesheet" href="imagens/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="imagens/fontawesome/css/style2.css">
+  <link rel="stylesheet" href="imagens/fontawesome/css/style.css">
+	<link rel="stylesheet" href="imagens/fontawesome/css/cad.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="logo"><a href="home.html">
+					<img src="imagens/Logo.jpg" alt="">
+				</a></div>
+			<nav class="menu-desktop">
+				<ul>
+					<li class="selected">
+						<a href="home.html">Página Inicial</a>
+					</li>
+					<li>
+						<a href="cadanalista.html">Tornar-se Analista</a>
+					</li>
+					<li>
+						<a href="cadastrousuario.html">Cadastre-se</a>
+					</li>
+					<li>
+						<a href="login.html">Login</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="menu-mobile">
+				<h2><i class="fa-solid fa-bars"></i></h2>
+				<ul>
+					<li class="selected">
+						<a href="home.html">Página Inicial</a>
+					</li>
+					<li>
+						<a href="cadanalista.html">Tornar-se Analista</a>
+					</li>
+					<li>
+						<a href="cadastrousuario.html">Cadastre-se</a>
+					</li>
+					<li>
+						<a href="login.html">Login</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+		</div>
+	</header>
+
+	
+	<section class="main-cadastro-usuario">
+		<div class="container">
+
+			<div class="imagem">
+        <img src="imagens/usu.png" alt="">
+        </div>
+    
+        <div class="login-page">
+            <div class="form">
+              <form class="register-form">
+                <input type="text" placeholder="name"/>
+                <input type="password" placeholder="password"/>
+                <input type="text" placeholder="email address"/>
+                <button>create</button>
+                <p class="message">Already registered? <a href="#">Sign In</a></p>
+              </form>
+              <form class="login-form">
+                <input type="text" placeholder="Usuário"/>
+                <input type="password" placeholder="Senha"/>
+                <button>login</button>
+                <p class="message">Não tem cadastro? <a href="#"></a></p>
+                <p class="message"><a href="cadastrousuario.html">Criar conta como Usuário</a></p>
+                <p class="message"><a href="cadanalista.html">Criar conta como Analista</a></p>
+              </form>
+            </div>
+          </div>
+    
+
+	</section>
+
+
+	<footer class="footer1">
+		<div class="container">
+			<div class="w33">
+				<h2>Aonde estamos?</h2>
+				<p><i class="fa-solid fa-map-pin"></i></i> De todo Brasil</p>
+			</div>
+			<div class="w33">
+				<h2>Links Úteis</h2>
+				<a href="https://github.com/squad-treze" target="_blank">Nosso Repositório</a>
+				<a href="https://recodepro.org.br/" target="_blank">Recode Pro</a>
+			</div>
+			<div class="w33">
+				<h2>Conecte-se conosco!</h2>
+				<div class="group-icons">
+					<a href="#"><i class="fa-brands fa-facebook"></i></a>
+					<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</footer>
+	<footer class="footer2">
+		<div class="container">
+			<p>&copy; Todos os direitos reservados</p>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+	<script>
+		$('nav.menu-mobile h2').click(function () {
+			$('nav.menu-mobile ul').slideToggle();
+		});
+	</script>
+</body>
+
+</html>
